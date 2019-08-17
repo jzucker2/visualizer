@@ -27,7 +27,7 @@ rpio.init({mock: 'raspi-3'});
 rpio.on('warn', function() {});
 rpio.open(11, rpio.INPUT);
 console.log('Pin 11 is currently ' + (rpio.read(11) ? 'high' : 'low'));
-var pin = 11;
+var pin = 10;
 
 /*
  * Use the internal pulldown resistor to default to off.  Pressing the button
