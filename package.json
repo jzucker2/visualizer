@@ -22,6 +22,7 @@
   "homepage": "https://github.com/jzucker2/visualizer#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "rpio": "^1.0.13",
     "serve-index": "^1.9.1",
     "serve-static": "^1.14.1"
   }
