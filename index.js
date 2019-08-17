@@ -68,6 +68,7 @@ function pollcb(cbpin)
  * watch for high or low events, then you'd use the third argument to specify
  * either rpio.POLL_LOW or rpio.POLL_HIGH.
  */
+rpio.poll(pin, pollcb);
 
 
 // const http = require('http');
