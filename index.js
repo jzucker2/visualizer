@@ -22,9 +22,9 @@ app.listen(port,  function () {
 })
 
 var rpio = require('rpio');
-rpio.init({mock: 'raspi-3'});
+// rpio.init({mock: 'raspi-3'});
 /* Override default warn handler to avoid mock warnings */
-rpio.on('warn', function() {});
+// rpio.on('warn', function() {});
 rpio.open(11, rpio.INPUT);
 console.log('Pin 11 is currently ' + (rpio.read(11) ? 'high' : 'low'));
 var pin = 10;
